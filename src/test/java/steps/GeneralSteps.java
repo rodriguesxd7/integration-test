@@ -1,6 +1,7 @@
 package steps;
 
 import cucumber.api.java.en.Then;
+import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Então;
 import groovy.json.internal.LazyMap;
 import org.junit.Assert;
@@ -8,7 +9,8 @@ import support.RESTSupport;
 
 import java.util.List;
 
-public class GeneralSteps {
+public class
+GeneralSteps {
 
     @Then("^user should see (.*) with value \"([^\"]*)\"$")
     public void userShouldSeeLoginWithValue(String field, String value) throws Throwable {
@@ -16,6 +18,7 @@ public class GeneralSteps {
     }
 
     @Then("^user should see \"([^\"]*)\" message$")
+    @Entao("^usuário deveria ver a mensagem de \"([^\"]*)\"&")
     public void userShouldSeeMessage(String type) throws Throwable {
         LazyMap messageJson = new LazyMap();
         messageJson.put("save with success", 201);

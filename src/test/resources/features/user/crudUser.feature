@@ -12,7 +12,7 @@ Feature: User CRUD
   Scenario: User show a register with get
     Given user would like to save a user
     And user informs login with value equal "bugluna"
-    And user informs full_name with value equal "Bug Luna Agapito Correa"
+    And user informs full_name with val+ue equal "Bug Luna Agapito Correa"
     And user informs email with value equal "bug.luna@gmail.com"
     And user informs age with value equal "8"
     When user clicks on save button

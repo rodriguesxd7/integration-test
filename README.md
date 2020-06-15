@@ -1,2 +1,2 @@
-# impacta-integration-testing
-Integration testing with java for Impacta studients
+Aluno: Bruno Cesar Rodrigues
+Aluno: Raul Felipe Silva Fausto
